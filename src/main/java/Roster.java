@@ -170,7 +170,7 @@ public class Roster {
             return Result.EMPTY_VALUE;
         }
 
-        if(getPlayerCount() == 0) {
+        if(isEmpty()) {
             return Result.ROSTER_EMPTY;
         }
 

@@ -85,6 +85,7 @@ public class Lineup {
 
     public boolean idExists(String id) {
         if(id.isEmpty()) {
+            System.out.println("Error: " + Result.INVALID_COMMAND + " - idExists() in Lineup class");
             return false;
         }
 
